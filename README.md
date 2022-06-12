@@ -11,7 +11,7 @@
 * [Screenshot](#screenshot)
 * [Installation](#installation)
 * [Usage](#usage)
-* [Author(s)](#authors)
+* [Author](#author)
 * [Contact Info](#contact-info)
 
 ## Technologies:

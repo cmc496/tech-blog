@@ -32,6 +32,7 @@
 
 ## Screenshot:
 * 
+![Tech-Blog-screenshot](https://user-images.githubusercontent.com/99096273/173281482-a84849e0-a358-4e8c-afe4-7ebdc2877fdf.png)
 
 
 ## Installation:

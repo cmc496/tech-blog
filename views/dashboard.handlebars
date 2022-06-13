@@ -1,22 +1,26 @@
-<section>
-    <h2>Create New Post</h2>
+<section class="new-post">
+    <h2 class="new-post-header">Create New Post</h2>
 
     <form class="new-post-form">
         <div>
-            <label for="post-title">Title</label>
+            <label for="post-title" class="post-title">Title</label>
             <input type="text" id="post-title" name="post-title" />
         </div>
-        <button type="submit" class="btn">Create</button>
+        <div>
+            <label for="post-text" class="post-body">Body</label>
+            <input type="text" id="post-text" name="post-text" />
+        </div>
+        <button type="submit" class="btn" id="create-btn">Create</button>
     </form>
 </section>
 
 {{#if posts.length}}
-<section>
-    <h2>Your Posts</h2>
-    <ol>
+<section class="your-posts">
+    <h2 class="dash-header">Your Posts</h2>
+    <ol class="posts-list">
         {{#each posts as |post|}}
         <li>
-            {{> posts-info post}}
+            {{> post-info post}}
             <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit post</a>
         </li>
         {{/each}}

@@ -1,6 +1,6 @@
-* {
+/* * {
     box-sizing: border-box;
-  }
+  } */
   
   body, html {
     height: 100%;
@@ -22,7 +22,7 @@
   }
   
   button {
-    background-color: #225ca3;
+    background-color: #229da3;
     border: 0;
     padding: 1%;
     color: white;
@@ -122,7 +122,7 @@
     line-height: 150%;
   }
   
-  .post .title span {
+  .post .title .post-text, span {
     font-style: italic;
     font-size: 90%;
     color: #7d7d7d;
@@ -131,15 +131,6 @@
   .edit-link {
     display: block;
     margin: -1.5% 0 2% 0;
-  }
-  
-  .upvote-btn {
-    background-color: #197d0f;
-    transition: background-color .1s;
-  }
-  
-  .upvote-btn:hover {
-    background-color: #1f9c13;
   }
   
   .comment-form {
@@ -175,4 +166,38 @@
     justify-content: center;
     padding: 1%;
     font-size: 110%;
+    color:#229da3;
+  }
+
+  .site-title {
+    color:#229da3;
+    font-size: 50px;
+    font-family: fantasy;
+  }
+  .site-login, .site-logout, .site-dash {
+    font-size: 35px;
+    font-family: fantasy;
+  }
+
+  .forms {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .login-label, .login-btn {
+    margin-top: 10px;
+  }
+
+  .login-btn, #create-btn {
+    padding: 6px;
+    justify-content: space-around;
+  }
+
+  .new-post, .your-posts {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .new-post-header, .new-post-form, .post-title, .post-body, #create-btn, .dash-header, .posts-list {
+    margin: 10px auto;
   }

@@ -49,7 +49,7 @@
 * Run 'node server.js' once more and the database will be populated with the seeded information
 
 ## Deployed Application:
-*
+* https://calm-bayou-94911.herokuapp.com/
 
 ## Author:
 * Caitlin Clifford
